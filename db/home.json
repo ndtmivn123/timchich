@@ -1,0 +1,25 @@
+{
+	"data": {
+		"title": "Timchich",
+		"desc": " lorem ipsum ha sbakbs dbk sba ls",
+		"img":"http://localhost:3000/img/logo.png",
+		"list":[
+			"ns akbsaksasa",
+			"ns akbs sasasaaksasa",
+			"ns assa sa ksasa",
+			"ns assa sa ksasa"
+		],
+		"news":[
+			{
+				"name": " nsakbsal sas ma",
+				"desc": " msalsnalsmdln la"
+			},
+			{
+				"name": " nsakbsal sas ma",
+				"desc": " msalsnads sas asa sasmdln la"
+			}
+		]
+
+	}
+
+}

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	.container
+		.row
+			- for(x=0; x<shop.data.length; x++)
+				.col-md-6.col-lg-3.item
+					h2= shop.data[x].name
+					h6 $ #{shop.data[x].price}
+					figure
+						img(src= shop.data[x].img, alt="").img-fluid
+					p= shop.data[x].desc

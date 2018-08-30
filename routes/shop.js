@@ -7,12 +7,12 @@ var fs = require('fs');
 // });
 router.get('/', function (req, res, next) {
 	var obj;
-	fs.readFile('./db/home.json', 'utf8', function (err, data) {
+	fs.readFile('./db/shop.json', 'utf8', function (err, data) {
     if (err) throw err;
     obj = JSON.parse(data);
     // console.log(obj)
 	// 	obj = JSON.parse(data);
-		res.render('index', { dataH: obj });
+		res.render('shop', { shop: obj });
 	});
 
 
